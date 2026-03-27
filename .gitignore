@@ -2,12 +2,11 @@
 .env
 *.env
 
-# Raw data — too large for GitHub
-data/raw/
-data/synthetic/
-
 # Processed data — reproducible from scripts
 data/processed/
+
+# Internal docs — not part of the public project
+docs/
 
 # Python
 __pycache__/
